@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test:gemini": "node gemini-test.js"
+    "test:gemini": "node src/gemini_text/gemini_test.js"
   },
   "devDependencies": {
     "vite": "^7.2.4"

@@ -124,6 +124,9 @@ async function main() {
 main();
 
 /* 実行結果の例
+
+TODO: Chat を作成した時、apiKey が露呈されていた！記載するなよ！
+
 Chat session created.
 Chat {
   apiClient: ApiClient {
@@ -132,7 +135,7 @@ Chat {
       project: undefined,
       location: undefined,
       apiVersion: undefined,
-      apiKey: 'AIzaSyBckiuUkGBKhfLpL1i6Po2ZqKo_3cqz3o0',
+      apiKey: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx',
       vertexai: false,
       httpOptions: [Object],
       userAgentExtra: 'gl-node/v22.14.0',
